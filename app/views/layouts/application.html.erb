@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MyBlog</title>
+  
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+ 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+
+
+
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+<div class="container">	
+		<div id="header">
+		<h1> My Blog</h1> 
+
+	</div>
+
+
+	<%= yield %>
+</div>	
+ 
+</body>
+</html>
